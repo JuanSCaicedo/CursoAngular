@@ -13,4 +13,12 @@ export class ContadorComponent implements OnInit {
   }
 
   numero: number = 1;
+
+  decrementar() {
+    this.numero--;
+  }
+
+  incrementar() {
+    this.numero += 1;
+  }
 }

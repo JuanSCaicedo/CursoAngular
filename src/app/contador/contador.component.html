@@ -1,9 +1,14 @@
-<button (click)=" numero = numero - 1">
-    -
-</button>
+<h3>Contador</h3>
 
-<span>{{numero}}</span>
+<div>
+    <button (click)="decrementar()">
+        -
+    </button>
 
-<button (click)=" numero = numero + 1">
-    +
-</button>
+    <span>{{numero}}</span>
+
+    <button (click)="incrementar()">
+        +
+    </button>
+
+</div>
